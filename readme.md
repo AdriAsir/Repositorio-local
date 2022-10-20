@@ -15,11 +15,14 @@ En dicho archivo, usaremos debian11 como SO de nuestros servidores, le asignarem
 
 ## Creación de aprovisionamiento
 
-Para aligerar el proceso, crearemos un script para cada máquina de tal forma que ya tengamos todo listo para comenzar la configuración de cada una de ellas.
+Para aligerar el proceso, crearemos un script para cada máquina de tal forma que ya tengamos todo listo para comenzar la 
+configuración de cada una de ellas.
 Script del servidor Mysql: 
+
 ![](capturas/apmysql.PNG)
 
 Script del servidor Apache:
+
 ![](capturas/apapache.PNG)
 
 ## Configuración de las máquinas
