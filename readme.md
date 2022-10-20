@@ -38,7 +38,7 @@ Dentro del servidor web, tendremos que crear un nuevo directorio dentro de "/var
 ### Servidor Mysql
 En el servidor Mysql, importaremos desde el repositorio Github dado en la práctica, una base de datos y la configuraremos para nuestra red. 
 
-![](capturas/creacion de la bbdd.PNG)
+![](capturas/creacion.PNG)
 
 En el archivo .conf, cambiaremos la linea de "bind-address 172.0.0.1" por nuestra dirección IP del servidor Mysql.
 
