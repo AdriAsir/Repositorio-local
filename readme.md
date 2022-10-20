@@ -4,7 +4,7 @@
 
 Repositorio creado para subir el proyecto.
 
-![](capturas/git.png)
+![](capturas/git.PNG)
 
 
 ## Configuración de Vagrantfile
