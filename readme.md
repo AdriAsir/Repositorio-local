@@ -31,18 +31,26 @@ Script del servidor Apache:
 
 Dentro del servidor web, tendremos que crear un nuevo directorio dentro de "/var/www/" con el nombre que nosotros elijamos y cambiarle el dueño y grupo al que pertenecen.
 
-![](capturas/.PNG)
+![](capturas/apachee.PNG)
 
+Importaremos desde el repositorio Github dado en la práctica el directorio "sr", dentro del cual modificaremos la dirección IP de "@localhost" por la IP de nuestro servidor Web:
 
+![](capturas/apache2.PNG)
+
+Por último, entraremos en "etc/apache2/", realizaremos una copia del archivo "000-default.conf", el cual deshabilitaremos, dentro del directorio "sites-available" y lo llamaremos Apache. En el, asignaremos la IP a nuestro servidor Web y habilitaremos como directorio web.
+
+![](capturas/apache3.PNG)
+
+Para finalizar, reiniciaremos el servidor Web con el comando "sudo systemcls restart apache2"
 
 ### Servidor Mysql
 En el servidor Mysql, importaremos desde el repositorio Github dado en la práctica, una base de datos y la configuraremos para nuestra red. 
 
 ![](capturas/creacion.PNG)
 
-En el archivo .conf, cambiaremos la linea de "bind-address 172.0.0.1" por nuestra dirección IP del servidor Mysql.
+En el archivo mysql.conf, cambiaremos la linea de "bind-address 172.0.0.1" por nuestra dirección IP del servidor Mysql.
 
-![](capturas/creacion de la bbdd.PNG)
+![](capturas/ipmy.PNG)
 
 Para finalizar los ajustes de nuestra base de datos, crearemos un usuario al cual le daremos permisos totales a la BD importada previamente.
 
